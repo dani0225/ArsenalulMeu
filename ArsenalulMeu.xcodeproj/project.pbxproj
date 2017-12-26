@@ -62,6 +62,8 @@
 			children = (
 				84733C0F1FF2B1830093C863 /* SupportTingFiles */,
 				84733BFC1FF2B1700093C863 /* ViewController.swift */,
+				84733C121FF2B26D0093C863 /* ComputedProperties.swift */,
+				84733C101FF2B19E0093C863 /* PropertyObservers.swift */,
 			);
 			path = ArsenalulMeu;
 			sourceTree = "<group>";
@@ -75,8 +77,6 @@
 				84733C061FF2B1700093C863 /* LaunchScreen.storyboard */,
 				84733C091FF2B1700093C863 /* Info.plist */,
 				84733C011FF2B1700093C863 /* ArsenalulMeu.xcdatamodeld */,
-				84733C101FF2B19E0093C863 /* PropertyObservers.swift */,
-				84733C121FF2B26D0093C863 /* ComputedProperties.swift */,
 			);
 			path = SupportTingFiles;
 			sourceTree = "<group>";
