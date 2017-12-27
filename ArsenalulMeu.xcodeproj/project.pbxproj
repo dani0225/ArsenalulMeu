@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8434605C1FF4011F00533836 /* modificare nume Outlet sau Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */; };
 		84733BFB1FF2B1700093C863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733BFA1FF2B1700093C863 /* AppDelegate.swift */; };
 		84733BFD1FF2B1700093C863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733BFC1FF2B1700093C863 /* ViewController.swift */; };
 		84733C001FF2B1700093C863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84733BFE1FF2B1700093C863 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "modificare nume Outlet sau Action.swift"; sourceTree = "<group>"; };
 		84733BF71FF2B1700093C863 /* ArsenalulMeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArsenalulMeu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84733BFA1FF2B1700093C863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84733BFC1FF2B1700093C863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				84733BFC1FF2B1700093C863 /* ViewController.swift */,
 				84733C121FF2B26D0093C863 /* ComputedProperties.swift */,
 				84733C101FF2B19E0093C863 /* PropertyObservers.swift */,
+				8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */,
 			);
 			path = ArsenalulMeu;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				84733C111FF2B19E0093C863 /* PropertyObservers.swift in Sources */,
 				84733BFD1FF2B1700093C863 /* ViewController.swift in Sources */,
 				84733BFB1FF2B1700093C863 /* AppDelegate.swift in Sources */,
+				8434605C1FF4011F00533836 /* modificare nume Outlet sau Action.swift in Sources */,
 				84733C131FF2B26D0093C863 /* ComputedProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
