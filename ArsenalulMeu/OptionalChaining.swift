@@ -9,7 +9,7 @@
 import Foundation
 
 
-let x: String?
+let x: String? = "bla"
 
 let y = x?.functionLol()?.bar?.z
 
