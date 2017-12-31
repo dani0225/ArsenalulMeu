@@ -13,6 +13,7 @@
 		8415149B1FF67B3A00619D7E /* OptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415149A1FF67B3A00619D7E /* OptionalChaining.swift */; };
 		8415149D1FF6CE5A00619D7E /* Map filter reduce sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415149C1FF6CE5A00619D7E /* Map filter reduce sort.swift */; };
 		8434605C1FF4011F00533836 /* modificare nume Outlet sau Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */; };
+		84459E811FF79D0700705141 /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84459E801FF79D0700705141 /* closures.swift */; };
 		84733BFB1FF2B1700093C863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733BFA1FF2B1700093C863 /* AppDelegate.swift */; };
 		84733BFD1FF2B1700093C863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84733BFC1FF2B1700093C863 /* ViewController.swift */; };
 		84733C001FF2B1700093C863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84733BFE1FF2B1700093C863 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		8415149A1FF67B3A00619D7E /* OptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChaining.swift; sourceTree = "<group>"; };
 		8415149C1FF6CE5A00619D7E /* Map filter reduce sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map filter reduce sort.swift"; sourceTree = "<group>"; };
 		8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "modificare nume Outlet sau Action.swift"; sourceTree = "<group>"; };
+		84459E801FF79D0700705141 /* closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closures.swift; sourceTree = "<group>"; };
 		84733BF71FF2B1700093C863 /* ArsenalulMeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArsenalulMeu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84733BFA1FF2B1700093C863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84733BFC1FF2B1700093C863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				84733C121FF2B26D0093C863 /* ComputedProperties.swift */,
 				84733C101FF2B19E0093C863 /* PropertyObservers.swift */,
 				8415149C1FF6CE5A00619D7E /* Map filter reduce sort.swift */,
+				84459E801FF79D0700705141 /* closures.swift */,
 				8434605B1FF4011F00533836 /* modificare nume Outlet sau Action.swift */,
 				841514941FF65D1C00619D7E /* Extension.swift */,
 				841514981FF6715200619D7E /* Enums.swift */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84733C031FF2B1700093C863 /* ArsenalulMeu.xcdatamodeld in Sources */,
+				84459E811FF79D0700705141 /* closures.swift in Sources */,
 				8415149B1FF67B3A00619D7E /* OptionalChaining.swift in Sources */,
 				84733C111FF2B19E0093C863 /* PropertyObservers.swift in Sources */,
 				841514951FF65D1C00619D7E /* Extension.swift in Sources */,
