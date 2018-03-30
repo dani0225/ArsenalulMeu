@@ -1,0 +1,13 @@
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+        context.delete(messagesArray[indexPath.row])
+        messagesArray.remove(at: indexPath.row)
+        collectionView.deleteItems(at: [indexPath])
+
+        //saveData()
+
+        DispatchQueue.main.async {
+            self.myCollectionView.reloadData()
+        }
+        
+    }
