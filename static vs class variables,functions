@@ -1,0 +1,81 @@
+class A
+{
+    func someFunction()
+    {
+        
+    }
+}
+
+
+class B
+{
+    func usingFunctionFromClassA()
+    {
+        //var a = A.someFunction()  nu poti folosi direct functia din cealalta clasa, trebuie sa faci o instanta
+        
+        let a = A()   // normal default implementation
+        a.someFunction()
+    }
+}
+
+class WithStaticVars
+{
+    static var name:String
+    {
+        get
+        {
+            return "Vasile"
+        }
+    }
+    
+    static func doSomething()
+    {
+        
+    }
+}
+
+class UseStaticVarFromAnotherClass
+{
+    func useStaticVarFromAnotherClasss()
+    {
+        WithStaticVars.name // nu a mai trebuit sa fac o instantaa, am putut sa o utilizez direct, static inseamna ca nu se va schimba
+        WithStaticVars.doSomething() //la fel si cu functia, nu se va schimba si nu sunt nevoit sa fac o noua instanta
+    }
+    
+    class var example:String
+    {
+        get
+        {
+            return "Gheorghe"
+        }
+    }
+    
+    static var lastName:String
+    {
+        get
+        {
+            return "Marinas"
+        }
+    }
+}
+
+//class func e la fel ca static doar ca atunci cand ai inheritance de class si vrei sa faci override la o proprietate poti sa o faci doar cand e class, pe static nu merge
+
+class SubClass: UseStaticVarFromAnotherClass
+{
+    override class var example:String //merge deoarce e trecuta cu "class var in clasa principala"
+    {
+        get
+        {
+        return "Marin"
+        }
+    }
+    
+    override static var lasName:String //nu functioneaza pentru ca nu poti face override la static :)
+        {
+        get
+        {
+            return "Popescu"
+        }
+    }
+}
